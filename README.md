@@ -17,11 +17,7 @@ Este projeto faz parte da minha jornada de aprendizado aplicada, buscando resolv
 
 Como prever o valor da gorjeta de um cliente com base no comportamento de consumo?
 
-Essa previsão pode ajudar restaurantes a:
-
-* Entender melhor o comportamento dos clientes
-* Otimizar estratégias de atendimento
-* Melhorar previsibilidade de receita
+Essa previsão pode auxiliar restaurantes a otimizar decisões operacionais, melhorar a experiência do cliente e aumentar a previsibilidade de receita.
 
 ---
 
@@ -51,15 +47,20 @@ Principais descobertas:
 
 ## 📊 Visualização
 
+Relação entre o valor da conta e a gorjeta, evidenciando uma tendência positiva entre as variáveis.
+
 ![Conta vs Gorjeta](https://raw.githubusercontent.com/Callout84/analise-gorjetas-restaurante/main/conta_vs_gorjeta.png)
+
 ---
 
 ## 💡 Insights de Negócio
 
-* Clientes com contas maiores geram maior valor de gorjeta
-* O percentual de gorjeta diminui conforme o valor da conta aumenta
-* Finais de semana são mais lucrativos
-* O comportamento médio de gorjeta gira em torno de 15%
+* Clientes com contas maiores geram maior valor absoluto de gorjeta
+* O percentual de gorjeta tende a diminuir conforme o valor da conta aumenta
+* Finais de semana apresentam maior potencial de faturamento
+* O comportamento médio de gorjeta (~15%) permite prever receita adicional com boa confiabilidade
+
+📌 Esses insights podem ser utilizados para otimizar estratégias de atendimento e alocação de equipe.
 
 ---
 
@@ -83,7 +84,7 @@ Foi desenvolvido um modelo de regressão para prever o valor da gorjeta.
 
 * O modelo apresenta erro médio baixo (~0.76)
 * Explica cerca de 52% da variabilidade dos dados
-* Regressão linear foi mais eficiente que árvore de decisão
+* A regressão linear mostrou melhor desempenho devido à relação linear entre as variáveis
 
 ---
 
@@ -107,7 +108,7 @@ Foi desenvolvido um modelo de regressão para prever o valor da gorjeta.
 
 ## 📈 Conclusão
 
-Este projeto demonstra minha capacidade de:
+Este projeto demonstra minha capacidade prática de:
 
 * Explorar e interpretar dados
 * Gerar insights de negócio
@@ -121,6 +122,14 @@ Este projeto demonstra minha capacidade de:
 * Testar modelos mais avançados
 * Criar dashboard interativo
 * Trabalhar com dados reais maiores
+
+---
+
+## 🎯 Objetivo Profissional
+
+Este projeto foi desenvolvido com foco em consolidar minhas habilidades em Data Science, aplicando análise de dados e Machine Learning em um problema real.
+
+Busco uma oportunidade como Analista de Dados ou Cientista de Dados Júnior para continuar evoluindo e gerando valor através de dados.
 
 ---
 
