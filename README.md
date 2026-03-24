@@ -51,7 +51,7 @@ Principais descobertas:
 
 ## 📊 Visualização
 
-![Conta vs Gorjeta](conta_vs_gorjeta.png)
+![Conta vs Gorjeta](images/conta_vs_gorjeta.png)
 
 ---
 
