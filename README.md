@@ -7,15 +7,21 @@
 
 ## 👨‍💻 Sobre mim
 
-Sou um estudante de Data Science em transição de carreira, focado em desenvolver habilidades práticas em análise de dados, Python e Machine Learning.
+Sou um estudante em transição de carreira para a área de Data Science, focado em desenvolver habilidades práticas em análise de dados, Python e Machine Learning.
 
-Estou construindo projetos reais para evoluir minhas habilidades e me preparar para atuar profissionalmente na área.
+Este projeto faz parte da minha jornada de aprendizado aplicada, buscando resolver problemas reais com dados.
 
 ---
 
-## 📌 Objetivo
+## 🧠 Problema de Negócio
 
-Analisar o comportamento de gorjetas em um restaurante e desenvolver um modelo de Machine Learning capaz de prever o valor da gorjeta com base nas características do pedido.
+Como prever o valor da gorjeta de um cliente com base no comportamento de consumo?
+
+Essa previsão pode ajudar restaurantes a:
+
+* Entender melhor o comportamento dos clientes
+* Otimizar estratégias de atendimento
+* Melhorar previsibilidade de receita
 
 ---
 
@@ -27,28 +33,34 @@ O dataset contém informações sobre:
 * Gorjeta (`tip`)
 * Número de pessoas (`size`)
 * Dia da semana (`day`)
-* Cliente fumante ou não (`smoker`)
+* Cliente fumante (`smoker`)
 
 ---
 
-## 🔍 Análise Exploratória (EDA)
+## 📊 Análise Exploratória (EDA)
 
-Principais padrões identificados:
+Principais descobertas:
 
 * A maioria das contas está entre 10 e 20
-* Existe uma relação positiva entre valor da conta e gorjeta
-* Sábado apresenta maior faturamento total
-* Domingo possui maior média de gorjeta
-* Grupos maiores tendem a gerar maior valor total de consumo
+* Existe forte relação entre valor da conta e gorjeta
+* Sábado possui maior faturamento total
+* Domingo apresenta maior média de gorjeta
+* Grupos maiores geram maior consumo
+
+---
+
+## 📊 Visualização
+
+![Conta vs Gorjeta](conta_vs_gorjeta.png)
 
 ---
 
 ## 💡 Insights de Negócio
 
-* Clientes que gastam mais dão gorjetas maiores em valor absoluto
+* Clientes com contas maiores geram maior valor de gorjeta
 * O percentual de gorjeta diminui conforme o valor da conta aumenta
-* Finais de semana concentram maior faturamento
-* O comportamento de gorjeta segue uma média de aproximadamente 15%
+* Finais de semana são mais lucrativos
+* O comportamento médio de gorjeta gira em torno de 15%
 
 ---
 
@@ -68,18 +80,19 @@ Foi desenvolvido um modelo de regressão para prever o valor da gorjeta.
 | Regressão Linear  | 0.76 | 0.52 |
 | Árvore de Decisão | 0.84 | 0.49 |
 
-👉 A regressão linear apresentou melhor desempenho.
+### 📌 Interpretação:
+
+* O modelo apresenta erro médio baixo (~0.76)
+* Explica cerca de 52% da variabilidade dos dados
+* Regressão linear foi mais eficiente que árvore de decisão
 
 ---
 
-## 📈 Conclusão
+## ▶️ Como executar o projeto
 
-Este projeto demonstra minha capacidade de:
-
-* Explorar e analisar dados
-* Criar insights relevantes
-* Aplicar Machine Learning
-* Interpretar resultados
+1. Clone este repositório
+2. Abra o arquivo `.ipynb` no Google Colab ou Jupyter
+3. Execute as células para reproduzir a análise
 
 ---
 
@@ -93,19 +106,28 @@ Este projeto demonstra minha capacidade de:
 
 ---
 
+## 📈 Conclusão
+
+Este projeto demonstra minha capacidade de:
+
+* Explorar e interpretar dados
+* Gerar insights de negócio
+* Aplicar Machine Learning
+* Comunicar resultados de forma clara
+
+---
+
 ## 🚀 Próximos passos
 
-* Melhorar a performance do modelo
-* Testar novos algoritmos
-* Criar dashboards interativos
-* Trabalhar com datasets maiores
+* Testar modelos mais avançados
+* Criar dashboard interativo
+* Trabalhar com dados reais maiores
 
 ---
 
 ## 📌 Observação
 
-Este projeto faz parte da minha jornada de aprendizado em Data Science.
-Estou em constante evolução e aberto a feedbacks.
+Este projeto faz parte da minha evolução em Data Science.
+Estou em constante aprendizado e aberto a feedbacks.
 
 🚀 Em busca da minha primeira oportunidade na área!
-
