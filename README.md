@@ -53,6 +53,7 @@ Principais descobertas:
 
 ![Conta vs Gorjeta](https://raw.githubusercontent.com/Callout84/analise-gorjetas-restaurante/main/conta_vs_gorjeta.png)
 
+
 ---
 
 ## 💡 Insights de Negócio
