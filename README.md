@@ -51,8 +51,7 @@ Principais descobertas:
 
 ## 📊 Visualização
 
-![Conta vs Gorjeta](https://raw.githubusercontent.com/Callout84/analise-gorjetas-restaurante/main/conta_vs_gorjeta.png)
-
+<img src="https://raw.githubusercontent.com/Callout84/analise-gorjetas-restaurante/main/conta_vs_gorjeta.png" width="600">
 
 ---
 
