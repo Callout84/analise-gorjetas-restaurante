@@ -100,6 +100,24 @@ A análise exploratória foi realizada para entender padrões e relações entre
 📌 Isso demonstra que o problema possui um padrão relativamente previsível.
 
 ---
+🎯 Objetivo Profissional
+
+Estou em busca de uma oportunidade como:
+
+Analista de Dados Júnior
+Cientista de Dados Júnior
+
+Com foco em aplicar na prática meus conhecimentos em análise de dados, Machine Learning e geração de insights para o negócio.
+
+📌 Observação
+
+Este projeto faz parte da minha jornada de aprendizado em Data Science, com foco no desenvolvimento prático e contínuo.
+
+Estou em constante evolução e aberto a feedbacks.
+
+🚀 Em busca da minha primeira oportunidade na área!
+
+---
 
 ## ▶️ Como executar o projeto
 
