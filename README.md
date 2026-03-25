@@ -1,141 +1,140 @@
 # 📊 Análise e Previsão de Gorjetas em Restaurante
 
-> 🚀 Projeto desenvolvido durante meus estudos em Data Science
-> 📚 Nível: Iniciante (em evolução constante)
+> 🚀 Projeto prático de Data Science com foco em análise exploratória e modelagem preditiva  
+> 📚 Em desenvolvimento durante minha formação em Data Science pela Alura
 
 ---
 
 ## 👨‍💻 Sobre mim
 
-Sou um estudante em transição de carreira para a área de Data Science, focado em desenvolver habilidades práticas em análise de dados, Python e Machine Learning.
+Sou um estudante em transição de carreira para a área de Data Science, atualmente cursando formação em Data Science pela Alura.
 
-Este projeto faz parte da minha jornada de aprendizado aplicada, buscando resolver problemas reais com dados.
+Tenho como foco o desenvolvimento de habilidades práticas em:
+
+- Análise de dados
+- Python para Data Science
+- Machine Learning
+- Resolução de problemas de negócio com dados
+
+Este projeto representa a aplicação prática dos meus estudos em um cenário realista.
 
 ---
 
 ## 🧠 Problema de Negócio
 
-Como prever o valor da gorjeta de um cliente com base no comportamento de consumo?
+Como prever o valor da gorjeta de um cliente com base em características do consumo?
 
-Essa previsão pode auxiliar restaurantes a otimizar decisões operacionais, melhorar a experiência do cliente e aumentar a previsibilidade de receita.
+A capacidade de prever gorjetas pode ajudar restaurantes a:
+
+- Melhorar a previsibilidade de receita
+- Otimizar a alocação de funcionários
+- Entender melhor o comportamento dos clientes
 
 ---
 
 ## 📂 Dataset
 
-O dataset contém informações sobre:
+O conjunto de dados contém informações sobre o comportamento de clientes em um restaurante, incluindo:
 
-* Valor da conta (`total_bill`)
-* Gorjeta (`tip`)
-* Número de pessoas (`size`)
-* Dia da semana (`day`)
-* Cliente fumante (`smoker`)
+- 💰 `total_bill` → Valor total da conta  
+- 💵 `tip` → Valor da gorjeta  
+- 👥 `size` → Número de pessoas na mesa  
+- 📅 `day` → Dia da semana  
+- 🚬 `smoker` → Indica se o cliente é fumante  
 
 ---
 
-## 📊 Análise Exploratória (EDA)
+## 📊 Análise Exploratória de Dados (EDA)
 
-Principais descobertas:
+A análise exploratória foi realizada para entender padrões e relações entre as variáveis.
 
-* A maioria das contas está entre 10 e 20
-* Existe forte relação entre valor da conta e gorjeta
-* Sábado possui maior faturamento total
-* Domingo apresenta maior média de gorjeta
-* Grupos maiores geram maior consumo
+### 🔍 Principais descobertas:
+
+- A maior parte das contas está concentrada entre **10 e 20**
+- Existe uma **relação positiva clara** entre valor da conta e gorjeta
+- **Sábados apresentam maior faturamento total**
+- **Domingos possuem maior média de gorjeta**
+- Mesas com mais pessoas tendem a gerar maior consumo total
 
 ---
 
 ## 📊 Visualização
 
-Relação entre o valor da conta e a gorjeta, evidenciando uma tendência positiva entre as variáveis.
+Abaixo, podemos observar a relação entre o valor da conta e a gorjeta:
 
 ![Conta vs Gorjeta](https://raw.githubusercontent.com/Callout84/analise-gorjetas-restaurante/main/conta_vs_gorjeta.png)
+
+📌 O gráfico evidencia uma tendência linear positiva, indicando que quanto maior o valor da conta, maior tende a ser a gorjeta.
 
 ---
 
 ## 💡 Insights de Negócio
 
-* Clientes com contas maiores geram maior valor absoluto de gorjeta
-* O percentual de gorjeta tende a diminuir conforme o valor da conta aumenta
-* Finais de semana apresentam maior potencial de faturamento
-* O comportamento médio de gorjeta (~15%) permite prever receita adicional com boa confiabilidade
+A partir da análise dos dados, foram identificados insights relevantes:
 
-📌 Esses insights podem ser utilizados para otimizar estratégias de atendimento e alocação de equipe.
+- Clientes com contas maiores geram maior valor absoluto de gorjeta
+- O percentual de gorjeta tende a diminuir conforme o valor da conta aumenta
+- Finais de semana representam maior potencial de receita
+- O comportamento médio de gorjeta (~15%) permite previsões confiáveis
+
+📌 Esses insights podem ser utilizados para:
+- Melhorar estratégias operacionais
+- Planejar escala de funcionários
+- Maximizar eficiência no atendimento
 
 ---
 
-## 🤖 Machine Learning
+## 🤖 Modelagem Preditiva (Machine Learning)
 
-Foi desenvolvido um modelo de regressão para prever o valor da gorjeta.
+Foi desenvolvido um modelo de regressão com o objetivo de prever o valor da gorjeta.
 
-### Modelos testados:
+### 📌 Modelos testados:
 
-* Regressão Linear
-* Árvore de Decisão
+- Regressão Linear
+- Árvore de Decisão
 
-### Resultados:
+### 📊 Resultados obtidos:
 
 | Modelo            | MAE  | R²   |
-| ----------------- | ---- | ---- |
-| Regressão Linear  | 0.76 | 0.52 |
-| Árvore de Decisão | 0.84 | 0.49 |
+|----------------- |------|------|
+| Regressão Linear | 0.76 | 0.52 |
+| Árvore de Decisão| 0.84 | 0.49 |
 
-### 📌 Interpretação:
+---
 
-* O modelo apresenta erro médio baixo (~0.76)
-* Explica cerca de 52% da variabilidade dos dados
-* A regressão linear mostrou melhor desempenho devido à relação linear entre as variáveis
+## 📈 Interpretação dos Resultados
+
+- O erro médio (~0.76) indica boa precisão para um problema real
+- O modelo explica aproximadamente **52% da variação dos dados**
+- A Regressão Linear apresentou melhor desempenho devido à relação linear entre as variáveis
+
+📌 Isso demonstra que o problema possui um padrão relativamente previsível.
 
 ---
 
 ## ▶️ Como executar o projeto
 
-1. Clone este repositório
-2. Abra o arquivo `.ipynb` no Google Colab ou Jupyter
-3. Execute as células para reproduzir a análise
+### 1. Clone o repositório
+```bash
+git clone https://github.com/Callout84/analise-gorjetas-restaurante.git
+cd analise-gorjetas-restaurante
 
----
-
-## 🛠️ Tecnologias utilizadas
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Scikit-learn
-
----
-
-## 📈 Conclusão
-
-Este projeto demonstra minha capacidade prática de:
-
-* Explorar e interpretar dados
-* Gerar insights de negócio
-* Aplicar Machine Learning
-* Comunicar resultados de forma clara
-
----
-
-## 🚀 Próximos passos
-
-* Testar modelos mais avançados
-* Criar dashboard interativo
-* Trabalhar com dados reais maiores
-
----
 
 ## 🎯 Objetivo Profissional
 
-Este projeto foi desenvolvido com foco em consolidar minhas habilidades em Data Science, aplicando análise de dados e Machine Learning em um problema real.
+Estou em busca de uma oportunidade como:
 
-Busco uma oportunidade como Analista de Dados ou Cientista de Dados Júnior para continuar evoluindo e gerando valor através de dados.
+- Analista de Dados Júnior  
+- Cientista de Dados Júnior  
+
+Com foco em aplicar na prática meus conhecimentos em análise de dados, Machine Learning e geração de insights para o negócio.
 
 ---
 
 ## 📌 Observação
 
-Este projeto faz parte da minha evolução em Data Science.
-Estou em constante aprendizado e aberto a feedbacks.
+Este projeto faz parte da minha jornada de aprendizado em Data Science, com foco no desenvolvimento prático e contínuo.
+
+Estou em constante evolução e aberto a feedbacks.
 
 🚀 Em busca da minha primeira oportunidade na área!
