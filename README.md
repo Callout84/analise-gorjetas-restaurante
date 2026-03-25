@@ -60,8 +60,6 @@ A análise exploratória foi realizada para entender padrões e relações entre
 
 ## 📊 Visualização
 
-Abaixo, podemos observar a relação entre o valor da conta e a gorjeta:
-
 ![Conta vs Gorjeta](https://raw.githubusercontent.com/Callout84/analise-gorjetas-restaurante/main/conta_vs_gorjeta.png)
 
 📌 O gráfico evidencia uma tendência linear positiva, indicando que quanto maior o valor da conta, maior tende a ser a gorjeta.
@@ -70,23 +68,14 @@ Abaixo, podemos observar a relação entre o valor da conta e a gorjeta:
 
 ## 💡 Insights de Negócio
 
-A partir da análise dos dados, foram identificados insights relevantes:
-
 - Clientes com contas maiores geram maior valor absoluto de gorjeta
 - O percentual de gorjeta tende a diminuir conforme o valor da conta aumenta
 - Finais de semana representam maior potencial de receita
 - O comportamento médio de gorjeta (~15%) permite previsões confiáveis
 
-📌 Esses insights podem ser utilizados para:
-- Melhorar estratégias operacionais
-- Planejar escala de funcionários
-- Maximizar eficiência no atendimento
-
 ---
 
 ## 🤖 Modelagem Preditiva (Machine Learning)
-
-Foi desenvolvido um modelo de regressão com o objetivo de prever o valor da gorjeta.
 
 ### 📌 Modelos testados:
 
@@ -96,7 +85,7 @@ Foi desenvolvido um modelo de regressão com o objetivo de prever o valor da gor
 ### 📊 Resultados obtidos:
 
 | Modelo            | MAE  | R²   |
-|----------------- |------|------|
+|------------------|------|------|
 | Regressão Linear | 0.76 | 0.52 |
 | Árvore de Decisão| 0.84 | 0.49 |
 
@@ -104,9 +93,9 @@ Foi desenvolvido um modelo de regressão com o objetivo de prever o valor da gor
 
 ## 📈 Interpretação dos Resultados
 
-- O erro médio (~0.76) indica boa precisão para um problema real
-- O modelo explica aproximadamente **52% da variação dos dados**
-- A Regressão Linear apresentou melhor desempenho devido à relação linear entre as variáveis
+- O erro médio (~0.76) indica boa precisão para um problema real  
+- O modelo explica aproximadamente **52% da variação dos dados**  
+- A Regressão Linear apresentou melhor desempenho  
 
 📌 Isso demonstra que o problema possui um padrão relativamente previsível.
 
@@ -119,22 +108,17 @@ Foi desenvolvido um modelo de regressão com o objetivo de prever o valor da gor
 git clone https://github.com/Callout84/analise-gorjetas-restaurante.git
 cd analise-gorjetas-restaurante
 
-
-## 🎯 Objetivo Profissional
-
-Estou em busca de uma oportunidade como:
-
-- Analista de Dados Júnior  
-- Cientista de Dados Júnior  
-
-Com foco em aplicar na prática meus conhecimentos em análise de dados, Machine Learning e geração de insights para o negócio.
-
 ---
 
-## 📌 Observação
 
-Este projeto faz parte da minha jornada de aprendizado em Data Science, com foco no desenvolvimento prático e contínuo.
 
-Estou em constante evolução e aberto a feedbacks.
 
-🚀 Em busca da minha primeira oportunidade na área!
+
+
+
+
+
+
+
+
+
